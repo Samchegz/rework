@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile
+          file: ./testDockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/hello-app:v2
