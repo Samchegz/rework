@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "main"
+      - "Samchegz-patch-1"
 
 jobs:
   build:
